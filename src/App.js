@@ -1,11 +1,20 @@
 import React from 'react'
-import { faUserGroup } from '@fortawesome/free-solid-svg-icons'
-import Overview from './design-system/components/Overview/Overview';
-
+import CreativeSpeaker from './design-system/components/CreativeSpeaker/CreativeSpeaker.jsx'
+import spaekerData from './design-system/components/CreativeSpeaker/SpaekersData.jsx'
 export default function App() {
   return (
     <div>
-    <Overview icon={faUserGroup} title="650 participant" description="jkhjkhjkh jkbjkbghkbhbj jkhnjkh;jkbhkbh kjkhjkhgjgjhl kjkhgjkhjgjgkhjk kjhgkhgjkh jkhgjkhdjkhgjkdhgjkdhgjk"></Overview>
+
+      <div style ={{display:"flex"}}>
+      {spaekerData.map((item) => {
+        return (
+          <CreativeSpeaker name={item.name} img={item.img} alt={item.alt} job={item.job} key={item.id}></CreativeSpeaker>
+        )
+      })}
+
+       
+      </div>
+    
 
     </div>
   )
