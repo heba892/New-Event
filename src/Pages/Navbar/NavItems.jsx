@@ -14,7 +14,6 @@ export default function NavItems() {
            
        <NavLinks NavLink = {link.NavLink} NavText ={link.NavText} key={index}
         color={route.pathname === link.NavLink? theme.active: theme.white }></NavLinks>
-        
     
         )
     })

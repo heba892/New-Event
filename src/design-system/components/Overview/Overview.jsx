@@ -1,8 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Overviewrapper , Title , Description} from './Style';
+import { Overviewrapper ,  Title , Description} from './Style';
 
-export default function Overview({icon , title , description}) {
+export default function OverviewComponent({icon , title , description}) {
   return (
     <Overviewrapper>
     <div>

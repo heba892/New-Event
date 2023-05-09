@@ -1,24 +1,26 @@
-import {faUserGroup , } from '@fortawesome/free-solid-svg-icons'
+import {faUserGroup , faHand ,faGripLines} from '@fortawesome/free-solid-svg-icons'
 const OverviewData = [
     {
         id:1,
-        icon:"knj",
-        title:"title",
-        description:"description"
+        icon:faUserGroup,
+        title:"Lorem ipsum, dolor",
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus harum iure facere"
 
     },
     {
         id:2,
-        icon:"knj",
-        title:"title",
-        description:"description"
+        icon:faHand,
+        title:"Lorem ipsum, dolor",
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus harum iure facere"
+
 
     },
     {
         id:3,
-        icon:"knj",
-        title:"title",
-        description:"description"
+        icon:faGripLines,
+        title:"Lorem ipsum, dolor",
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus harum iure facere"
+
 
     },
 ]

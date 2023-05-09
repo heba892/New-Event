@@ -4,6 +4,8 @@ const theme = {
     gray:"#707070",
     active:"tomato",
     white:"#ffffff",
+    black:"#222",
+    whiteSmoke:"#f5f5f5"
 
 
 }

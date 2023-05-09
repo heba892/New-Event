@@ -9,11 +9,13 @@ text-align:center
 export const Title = styled('h2')`
 lable:Title;
 font-weight :bold;;
-color: gray;
+color: white;
+font-family: 'Courier New', Courier, monospace;
 `
 
 
 export const Description = styled('p')`
 lable:Description;
-color: blue;
+line-height: 1.9rem;
+color: gray;
 `
