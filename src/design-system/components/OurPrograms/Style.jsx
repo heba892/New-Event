@@ -1,9 +1,11 @@
 import styled from "@emotion/styled";
+import theme from "../../config";
 
 export const OurProgramwraper = styled("div")`
 lable:OurProgramwraper;
 display: flex;
 gap: 3rem;
+padding: 1.5rem 0;
 `
 export const Image = styled("img")`
 lable:Image;

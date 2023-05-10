@@ -12,13 +12,6 @@ lable:Container;
 width: 80%;
 margin: auto;
 `
-// export const CreativeSpaekerContainerkll = styled("div")`
-// lable:CreativeSpaekerContainer;
-// padding: 2rem;
-// display: flex;
-// align-items: center;
-// justify-content: space-between;
-// `
 
 export const CreativeSpaekerContainer = styled("div")`
 lable:CreativeSpaekerContainer;

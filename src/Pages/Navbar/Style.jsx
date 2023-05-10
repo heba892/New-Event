@@ -7,7 +7,8 @@ background-color: ${theme.secondary};
 padding: 1.5rem 0;
 color: white;
 position: fixed;
-width:100%
+width:100%;
+z-index: 999999;
 `
 export const Container = styled("div")`
 lable:Container;
