@@ -7,3 +7,10 @@ width: 285px;
 text-align: center;
 color: ${theme.gray}
 `
+export const Img = styled("img")`
+lable :Img;
+margin-right: 10px; 
+max-width: 100%;
+height: auto;
+
+`

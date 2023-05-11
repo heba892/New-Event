@@ -5,7 +5,7 @@ export const CreativeSpaekerWrapper = styled("section")`
 lable:CreativeSpaekerWrapper;
 background-color: ${theme.whiteSmoke};
 text-align: center;
-
+padding: 3rem 
 `
 export const Container = styled("div")`
 lable:Container;
@@ -18,5 +18,12 @@ lable:CreativeSpaekerContainer;
 display: flex;
 justify-content: space-around;
 padding: 2rem 0;
+`
+export const SwiperSlide = styled("div")`
+lable:SwiperSlide;
+
+margin-right: 10px; /* Add margin between images */
+  max-width: 100%;
+  height: auto;
 
 `

@@ -7,6 +7,7 @@ import CreativeSpaeker from '../CreativeSpeakers/CreativeSpaeker'
 import OurPrograms from '../OurPrograms/OurPrograms'
 import Registeration from '../Registeration/Registeration'
 import ContactUs from '../ContactUs/ContactUs'
+import Footer from '../Footer/Footer'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <OurPrograms></OurPrograms>
       <Registeration></Registeration>
       <ContactUs></ContactUs>
+      <Footer></Footer>
     </div>
   )
 }

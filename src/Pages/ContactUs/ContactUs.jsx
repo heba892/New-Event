@@ -17,9 +17,9 @@ export default function ContactUs() {
             </div>
         <Formwrapper>
         <h1 style={{color:`${theme.primary}`}}>Keep in touch</h1>
-        <Input type='text' placeholder='fName'></Input>
+        <Input type='text' placeholder='name'></Input>
         <Input type='email' placeholder='email'></Input>
-        <Input type='text' placeholder='Message'></Input>
+        <Input type='text' placeholder='message'></Input>
          <SendNowButton>Send Now</SendNowButton>
 
         </Formwrapper> 

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Speakerswrapper } from "./Style"
+import { Img, Speakerswrapper } from "./Style"
 export default function CreativeSpaekerComponent({img,name,job, alt}) {
   return (
     <Speakerswrapper >
-    <img src={img} alt={alt} width='100%'></img>
+    <Img src={img} alt={alt} width='100%'></Img>
     
     <h2>{name}</h2>
     <span>{job}</span>

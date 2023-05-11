@@ -20,14 +20,7 @@ export default function Links() {
         NavLink:"/register",
         NavText:"Register"
     },
-    {
-        NavLink:"/venue",
-        NavText:"Venue"
-    },
-    {
-        NavLink:"sponsors",
-        NavText:"Sponsors"
-    },
+    
     {
         NavLink:"contact",
         NavText:"Contact"
